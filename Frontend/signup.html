@@ -6,15 +6,51 @@
     <title>Document</title>
 </head>
 <body>
-    <h2> SignUp </h2>
+    <h2> Kaizen Rewards Form </h2>
     <form action = "", method = "post">
     <p>
-        {{form.username.label}} <br>
-        {{form.username(size = 30)}} <br>
+        {{form.name.label}} <br>
+        {{form.name(size = 30)}} <br>
     </p>
     <p>
-        {{form.password.label}} <br>
-        {{form.password(size = 30)}} <br>
+        {{form.area.label}} <br>
+        {{form.area(size = 30)}} <br>
+    </p>
+    <p>
+        {{form.mobile.label}} <br>
+        {{form.mobile(size = 30)}} <br>
+    </p>
+    <p>
+        {{form.impact.label}} <br>
+        {{form.impact(size = 30)}} <br>
+    </p>
+    <p>
+        {{form.before_date.label}} <br>
+        {{form.before_date(size = 30)}} <br>
+    </p>
+    <p>
+        {{form.before_image.label}} <br>
+        {{form.before_image(size = 30)}} <br>
+    </p>
+    <p>
+        {{form.after_date.label}} <br>
+        {{form.after_date(size = 30)}} <br>
+    </p>
+    <p>
+        {{form.after_image.label}} <br>
+        {{form.after_image(size = 30)}} <br>
+    </p>
+    <p>
+        {{form.problem.label}} <br>
+        {{form.problem(size = 100)}} <br>
+    </p>
+    <p>
+        {{form.action.label}} <br>
+        {{form.action(size = 100)}} <br>
+    </p>
+    <p>
+        {{form.benefits.label}} <br>
+        {{form.benefits(size = 100)}} <br>
     </p>
     <p>{{form.submit()}}</p>
     </form>
